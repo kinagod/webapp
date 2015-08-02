@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinagod.Enterprise.WebApp.MVCWebForm", "Kinagod.Enterprise.WebApp.MVCWebForm\Kinagod.Enterprise.WebApp.MVCWebForm.csproj", "{87798ADC-5285-4022-B595-7E70BC79F1B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinagod.Enterprise.WebApp.Services.ClassLibrary", "Kinagod.Enterprise.WebApp.Services.ClassLibrary\Kinagod.Enterprise.WebApp.Services.ClassLibrary.csproj", "{5F9628B9-D620-4368-8FFB-8B894224D4E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinagod.Enterprise.WebApp.Services.Interface.ClassLibrary", "Kinagod.Enterprise.WebApp.Services.Interface.ClassLibrary\Kinagod.Enterprise.WebApp.Services.Interface.ClassLibrary.csproj", "{1A259CA2-EA1D-40D7-B6D0-651E07DECA7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinagod.Enterprise.WebApp.Factory.ClassLibrary", "Kinagod.Enterprise.WebApp.Factory.ClassLibrary\Kinagod.Enterprise.WebApp.Factory.ClassLibrary.csproj", "{FBA959C6-324C-4D4C-9F84-D6CF7244B078}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinagod.Enterprise.WebApp.Business.ClassLibrary", "Kinagod.Enterprise.WebApp.Business.ClassLibrary\Kinagod.Enterprise.WebApp.Business.ClassLibrary.csproj", "{99285B3F-D7B1-4144-BF07-E58EA57774FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinagod.Enterprise.WebApp.Model.ClassLibrary", "Kinagod.Enterprise.WebApp.Model.ClassLibrary\Kinagod.Enterprise.WebApp.Model.ClassLibrary.csproj", "{A320B03F-0FE9-40D6-8CF2-BE53C030D235}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87798ADC-5285-4022-B595-7E70BC79F1B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87798ADC-5285-4022-B595-7E70BC79F1B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87798ADC-5285-4022-B595-7E70BC79F1B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87798ADC-5285-4022-B595-7E70BC79F1B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F9628B9-D620-4368-8FFB-8B894224D4E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F9628B9-D620-4368-8FFB-8B894224D4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F9628B9-D620-4368-8FFB-8B894224D4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F9628B9-D620-4368-8FFB-8B894224D4E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A259CA2-EA1D-40D7-B6D0-651E07DECA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A259CA2-EA1D-40D7-B6D0-651E07DECA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A259CA2-EA1D-40D7-B6D0-651E07DECA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A259CA2-EA1D-40D7-B6D0-651E07DECA7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA959C6-324C-4D4C-9F84-D6CF7244B078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA959C6-324C-4D4C-9F84-D6CF7244B078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA959C6-324C-4D4C-9F84-D6CF7244B078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA959C6-324C-4D4C-9F84-D6CF7244B078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99285B3F-D7B1-4144-BF07-E58EA57774FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99285B3F-D7B1-4144-BF07-E58EA57774FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99285B3F-D7B1-4144-BF07-E58EA57774FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99285B3F-D7B1-4144-BF07-E58EA57774FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A320B03F-0FE9-40D6-8CF2-BE53C030D235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A320B03F-0FE9-40D6-8CF2-BE53C030D235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A320B03F-0FE9-40D6-8CF2-BE53C030D235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A320B03F-0FE9-40D6-8CF2-BE53C030D235}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

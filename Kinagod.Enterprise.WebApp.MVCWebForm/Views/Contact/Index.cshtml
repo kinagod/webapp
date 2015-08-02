@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "-联系我们";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="about">
+    <div class="container">
+        <section class="title-section">
+            <h1 class="title-header">联系我们</h1>
+        </section>
+    </div>
+</div>
+<div class="contact">
+    <div class="container">
+        <div class="row contact_top">
+            <div class="col-md-4 contact_details">
+                <h5>公司地址:</h5>
+                <div class="contact_address">
+                    辽宁省沈阳市大东区北大营街2-8号362 <br />
+                    <br />
+                </div>
+            </div>
+            <div class="col-md-4 contact_details">
+                <h5>联系电话:</h5>
+                <div class="contact_address">
+                    业务咨询：155 2428 6960<br />
+                    售后服务：135 0418 0917<br />
+                </div>
+            </div>
+            <div class="col-md-4 contact_details">
+                <h5>联系邮箱:</h5>
+                <div class="contact_mail">
+                    业务咨询：sales@@kinagod.com <br />
+                    售后服务：services@@kinagod.com <br />
+                </div>
+            </div>
+        </div>
+        <div class="contact_bottom">
+            <h3>Contact Form</h3>
+            <p>Mauris a vulputate lectus at blandit nisi. Donec eleifend vel felis vitae auctor aenean rhoncus sapien sollicitudin leo interdum.</p>
+            <form method="post" action="contact-post.html">
+                <div class="contact-to">
+                    <input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+                    <input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" style="margin-left: 10px">
+                    <input type="text" class="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}" style="margin-left: 10px">
+                </div>
+                <div class="text2">
+                    <textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message..</textarea>
+                </div>
+                <div> <input type="submit" class="submit" />  </div>
+            </form>
+        </div>
+    </div>
+</div>
